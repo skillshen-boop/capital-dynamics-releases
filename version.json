@@ -1,0 +1,21 @@
+{
+  "latest": "v1.6.0",
+  "min_upgradable": "v1.5.0",
+  "release_url": "https://github.com/skillshen-boop/capital-dynamics-releases/releases/tag/v1.6.0",
+  "patches": [
+    {
+      "from": "v1.5.4",
+      "to": "v1.6.0",
+      "file": "v1.5.4-to-v1.6.0.patch.zip",
+      "size_kb": 0,
+      "sha256": "",
+      "migration": null,
+      "changelog": [
+        "OTA自动更新上线",
+        "回滚机制",
+        "迁移框架",
+        "版本文档同步"
+      ]
+    }
+  ]
+}
