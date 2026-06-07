@@ -11,10 +11,10 @@
       "sha256": "",
       "migration": null,
       "changelog": [
-        "OTA自动更新上线",
-        "回滚机制",
-        "迁移框架",
-        "版本文档同步"
+        "OTA\u81ea\u52a8\u66f4\u65b0\u4e0a\u7ebf",
+        "\u56de\u6eda\u673a\u5236",
+        "\u8fc1\u79fb\u6846\u67b6",
+        "\u7248\u672c\u6587\u6863\u540c\u6b65"
       ]
     }
   ]
