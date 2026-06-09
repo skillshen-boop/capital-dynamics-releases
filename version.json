@@ -24,11 +24,13 @@
   ],
   "mirrors": {
     "version_json": [
+      "https://tdxcds-vercel.vercel.app/version.json",
       "https://raw.githubusercontent.com/skillshen-boop/capital-dynamics-releases/main/version.json",
       "https://ghproxy.net/https://raw.githubusercontent.com/skillshen-boop/capital-dynamics-releases/main/version.json",
       "https://cdn.jsdelivr.net/gh/skillshen-boop/capital-dynamics-releases@main/version.json"
     ],
     "patch_download": [
+      "https://tdxcds-vercel.vercel.app/patches/{file}",
       "https://github.com/skillshen-boop/capital-dynamics-releases/releases/download/{tag}/{file}",
       "https://ghproxy.net/https://github.com/skillshen-boop/capital-dynamics-releases/releases/download/{tag}/{file}"
     ]
