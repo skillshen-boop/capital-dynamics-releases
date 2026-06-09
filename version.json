@@ -1,9 +1,18 @@
 {
-  "latest": "v1.5.9",
+  "latest": "v1.6.0",
   "min_upgradable": "v1.5.6",
-  "release_url": "https://github.com/skillshen-boop/capital-dynamics-releases/releases/tag/v1.5.9",
-  "release_notes": "统一线路检测机制 + 调度器单点写入 + 全量文档补齐",
-  "patch": null,
+  "release_url": "https://github.com/skillshen-boop/capital-dynamics-releases/releases/tag/v1.6.0",
+  "release_notes": "OTA 自动更新体系上线 — 混合更新策略",
+  "patch": {
+    "from": "v1.5.9",
+    "to": "v1.6.0",
+    "file": "v1.5.9-to-v1.6.0.patch.zip",
+    "size_kb": 7,
+    "sha256": "ad1d4bd58af1a6d60eed9043ac18250b01634a6a823ec3d1e41ad47d428e694b",
+    "changelog": [
+      "OTA 自动更新体系上线，支持增量补丁和全量安装器混合更新"
+    ]
+  },
   "full_installer": null,
   "data_pack": {
     "file": "tdxcds_db_full.zip",
@@ -11,11 +20,7 @@
     "sha256": "67153cb8164644d3c594dc8fda68c1ff895dd46ca5cbf1fd05122e12e1703b50"
   },
   "changelog": [
-    "统一线路检测机制 — 调度器单点写入，三端读缓存",
-    "Settings 数据源 Tab 四区结构 + 状态窗独立页面",
-    "调度器检查驱动模式 — 板块日线/资金流/信号 全自动",
-    "修复大盘指数重复、深交所SSL、system_config 重复键等 20+ 项",
-    "托盘极简版 — 状态窗/重启/退出"
+    "OTA 自动更新体系上线，支持增量补丁和全量安装器混合更新"
   ],
   "mirrors": {
     "version_json": [
