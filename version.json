@@ -1,19 +1,17 @@
 {
-  "latest": "v1.6.1",
+  "latest": "v1.6.2",
   "min_upgradable": "v1.5.6",
-  "release_url": "https://github.com/skillshen-boop/capital-dynamics-releases/releases/tag/v1.6.1",
-  "release_notes": "紧急修复: 冻结模式弹窗崩溃 + 版本号统一",
+  "release_url": "https://github.com/skillshen-boop/capital-dynamics-releases/releases/tag/v1.6.2",
+  "release_notes": "修复: DLL黄灯时序 + 移除右上角版本号",
   "patch": {
-    "from": "v1.5.9",
-    "to": "v1.6.1",
-    "file": "v1.5.9-to-v1.6.1.patch.zip",
-    "size_kb": 71,
-    "sha256": "2e7658e0f506dbc9d134c1cfc4725ea4ae19c44e76b6251a7f51474ff835db98",
+    "from": "v1.6.1",
+    "to": "v1.6.2",
+    "file": "v1.6.1-to-v1.6.2.patch.zip",
+    "size_kb": 11,
+    "sha256": "dabbb4471c224304841a098c18063d7059def28a1ede1cecd71681194607e2d0",
     "changelog": [
-      "修复: 冻结模式子进程弹窗/级联崩溃",
-      "统一: 版本号从 version.txt 读取",
-      "修复: 卸载不能自删",
-      "修复: 托盘退出残留进程"
+      "修复: DLL黄灯时序(状态缓存等泵完成)",
+      "移除: 右上角版本号显示"
     ]
   },
   "full_installer": null,
@@ -23,10 +21,8 @@
     "sha256": "67153cb8164644d3c594dc8fda68c1ff895dd46ca5cbf1fd05122e12e1703b50"
   },
   "changelog": [
-    "修复: 冻结模式子进程弹窗/级联崩溃",
-    "统一: 版本号从 version.txt 读取",
-    "修复: 卸载不能自删",
-    "修复: 托盘退出残留进程"
+    "修复: DLL黄灯时序(状态缓存等泵完成)",
+    "移除: 右上角版本号显示"
   ],
   "mirrors": {
     "version_json": [
