@@ -1,17 +1,16 @@
 {
-  "latest": "v1.6.2",
+  "latest": "v1.6.3",
   "min_upgradable": "v1.5.6",
-  "release_url": "https://github.com/skillshen-boop/capital-dynamics-releases/releases/tag/v1.6.2",
-  "release_notes": "修复: DLL黄灯时序 + 移除右上角版本号",
+  "release_url": "https://github.com/skillshen-boop/capital-dynamics-releases/releases/tag/v1.6.3",
+  "release_notes": "OTA链路测试",
   "patch": {
-    "from": "v1.6.1",
-    "to": "v1.6.2",
-    "file": "v1.6.1-to-v1.6.2.patch.zip",
-    "size_kb": 11,
-    "sha256": "dabbb4471c224304841a098c18063d7059def28a1ede1cecd71681194607e2d0",
+    "from": "v1.6.2",
+    "to": "v1.6.3",
+    "file": "v1.6.2-to-v1.6.3.patch.zip",
+    "size_kb": 0,
+    "sha256": "428e77448afc80b6f1eaa2ab413ba3b8cc3d871ae2641398a4d124b7563fff1a",
     "changelog": [
-      "修复: DLL黄灯时序(状态缓存等泵完成)",
-      "移除: 右上角版本号显示"
+      "OTA链路测试"
     ]
   },
   "full_installer": null,
@@ -21,8 +20,7 @@
     "sha256": "67153cb8164644d3c594dc8fda68c1ff895dd46ca5cbf1fd05122e12e1703b50"
   },
   "changelog": [
-    "修复: DLL黄灯时序(状态缓存等泵完成)",
-    "移除: 右上角版本号显示"
+    "OTA链路测试"
   ],
   "mirrors": {
     "version_json": [
