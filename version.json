@@ -16,8 +16,8 @@
   "full_installer": null,
   "data_pack": {
     "file": "tdxcds_db_full.zip",
-    "size_mb": 222,
-    "sha256": "67153cb8164644d3c594dc8fda68c1ff895dd46ca5cbf1fd05122e12e1703b50"
+    "size_mb": 259,
+    "sha256": "a81b7f8d7b70a811b635e9edabe9b5addb48147512484df6e214176b8593f3ec"
   },
   "changelog": [
     "OTA链路测试"
